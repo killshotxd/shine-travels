@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.left h1 {
+  font-size: xxx-large;
+}
+
+.left h3 {
+  font-size: 1.5rem;
+}
+
+.right {
+  width: 50vw;
+}
+.right img {
+  width: 35rem;
+}
