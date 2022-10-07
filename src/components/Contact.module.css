@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container h2 {
+  font-size: xx-large;
+}
+
+.container h2 span {
+  font-weight: bold;
+  color: palevioletred;
+}
+
+.icon {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.icon a:hover {
+  color: palevioletred;
+}
