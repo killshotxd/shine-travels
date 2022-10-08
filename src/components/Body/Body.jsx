@@ -5,6 +5,7 @@ import CarLogo2 from "../../assets/carLogo2.svg";
 import SimpleImageSlider from "react-simple-image-slider";
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import About from "../About/About";
 
 const images = [
   {
@@ -65,6 +66,7 @@ const Body = () => {
           </Button>
         </div>
       </div>
+      <About />
     </div>
   );
 };
