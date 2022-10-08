@@ -27,7 +27,7 @@ const Body = () => {
   return (
     <div className={styles.main}>
       <div className={styles.container1}>
-        <div>
+        <div className={styles.slider}>
           <h1>Shine Tours and Travels</h1>
           <SimpleImageSlider
             width={896}

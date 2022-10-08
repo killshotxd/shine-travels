@@ -7,6 +7,20 @@
   gap: 1rem;
 }
 
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.slider h1 {
+  font-size: xxx-large;
+  color: palevioletred;
+  font-weight: 600;
+}
+
 .left {
   width: 50vw;
   display: flex;
