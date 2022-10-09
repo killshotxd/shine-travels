@@ -40,6 +40,8 @@ const Body = () => {
               images={images}
               showBullets={true}
               showNavs={true}
+              autoPlay
+              loop={true}
             />
           </div>
         </div>

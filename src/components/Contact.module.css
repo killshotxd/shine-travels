@@ -29,3 +29,7 @@
 .logo img {
   width: 40vw;
 }
+
+.container iframe {
+  border-radius: 1rem;
+}
