@@ -25,3 +25,7 @@
 .icon a:hover {
   color: palevioletred;
 }
+
+.logo img {
+  width: 40vw;
+}

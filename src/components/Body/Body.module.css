@@ -1,5 +1,5 @@
 .container1 {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@
 }
 
 .container2 {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Contact.module.css";
 import { HiMail, HiPhone } from "react-icons/hi";
 import { IoLogoWhatsapp } from "react-icons/io";
+import logo from "../assets/logo-no-background.svg";
 const Contact = () => {
   return (
     <div className={styles.container}>
@@ -29,6 +30,10 @@ const Contact = () => {
         <a href="">
           <IoLogoWhatsapp fontSize={30} />
         </a>
+      </div>
+
+      <div className={styles.logo}>
+        <img src={logo} alt="LOGO" />
       </div>
     </div>
   );
