@@ -33,13 +33,15 @@ const Body = () => {
           <h1>
             <img src={logo} alt="LOGO" width={300} />
           </h1>
-          <SimpleImageSlider
-            width={896}
-            height={504}
-            images={images}
-            showBullets={true}
-            showNavs={true}
-          />
+          <div className={styles.centerSlider}>
+            <SimpleImageSlider
+              width={896}
+              height={504}
+              images={images}
+              showBullets={true}
+              showNavs={true}
+            />
+          </div>
         </div>
 
         {/* <div className={styles.left}>

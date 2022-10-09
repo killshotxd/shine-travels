@@ -12,21 +12,9 @@ const Navbar = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.left}>
-        <h2
-          onClick={() => {
-            handleClick();
-          }}
-        >
-          Shine Travels <AiFillCar fontSize={40} />
-          {/* <img src={logo} alt="LOGO" width={180} /> */}
-        </h2>
-      </div>
-      <div className={styles.right}>
-        <ul>Home</ul>
-        <ul>About</ul>
-        <ul>Contact</ul>
-      </div>
+      <ul onClick={handleClick}>Home</ul>
+      <ul>About</ul>
+      <ul>Contact</ul>
     </div>
   );
 };

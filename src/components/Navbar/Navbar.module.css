@@ -2,20 +2,17 @@
   height: 10vh;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
+  justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
 }
 
-.left h2 {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 1.5rem;
+.container ul {
   cursor: pointer;
+  font-weight: 500;
 }
 
-.right {
-  display: flex;
-  gap: 1rem;
+.container ul:hover {
+  color: palevioletred;
 }
