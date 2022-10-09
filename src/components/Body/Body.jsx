@@ -6,6 +6,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
+import logo from "../../assets/logo-no-background.svg";
 
 const images = [
   {
@@ -29,7 +30,9 @@ const Body = () => {
     <div className={styles.main}>
       <div className={styles.container1}>
         <div className={styles.slider}>
-          <h1>Shine Tours and Travels</h1>
+          <h1>
+            <img src={logo} alt="LOGO" width={300} />
+          </h1>
           <SimpleImageSlider
             width={896}
             height={504}
