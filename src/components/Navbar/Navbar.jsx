@@ -18,15 +18,30 @@ const Navbar = () => {
     navigate("/contacts");
   };
 
+  const handleLogo = () => {
+    navigate("/");
+  };
+
+  const handleBooking = () => {
+    navigate("/book");
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <img src={logo} alt="LOGO" width={250} />
+        <img
+          src={logo}
+          alt="LOGO"
+          style={{ cursor: "pointer" }}
+          onClick={handleLogo}
+          width={250}
+        />
       </div>
       <div className={styles.right}>
         <ul onClick={handleClick}>Home</ul>
         <ul onClick={handleAbout}>About</ul>
         <ul onClick={handleContact}>Contact</ul>
+        <ul onClick={handleBooking}>Our Cars</ul>
       </div>
     </div>
   );
