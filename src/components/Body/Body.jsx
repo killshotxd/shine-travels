@@ -8,7 +8,7 @@ import { Carousel } from "react-responsive-carousel";
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
-import logo from "../../assets/logo-no-background.svg";
+
 import audi from "../../assets/audi.jpg";
 import bmw from "../../assets/bmw.jpg";
 import jaguar from "../../assets/jaguar.jpg";
@@ -35,9 +35,6 @@ const Body = () => {
     <div className={styles.main}>
       <div className={styles.container1}>
         <div className={styles.slider}>
-          <h1>
-            <img src={logo} alt="LOGO" width={300} />
-          </h1>
           <div className={styles.centerSlider}>
             <Carousel autoPlay={true} infiniteLoop={true}>
               <div>
