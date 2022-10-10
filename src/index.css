@@ -14,15 +14,23 @@
   ._left2_ggkoq_113 img {
     width: 30rem !important;
     height: 59vh !important;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 1081px) {
   ._container2_ggkoq_95 {
     gap: 6rem !important;
+    flex-direction: column;
+    margin-top: 4rem;
   }
+
   ._right2_ggkoq_133 h2 {
     font-size: 2.2rem !important;
+  }
+
+  ._container_s1i37_1 {
+    margin-top: 7rem !important;
   }
 }
 
@@ -53,6 +61,10 @@
   }
   ._container_exobr_1 h2 {
     font-size: larger !important;
+  }
+  ._left2_ggkoq_113 img {
+    height: 40vh !important;
+    margin-left: 0;
   }
 }
 

@@ -15,44 +15,50 @@ import varanasi from "../../assets/varanasi.jpg";
 const Services = () => {
   return (
     <div className={styles.container}>
-      <CCard style={{ width: "22rem" }}>
-        <CCardImage orientation="top" src={nepal} />
-        <CCardBody>
-          <CCardTitle style={{ color: "black" }}>Nepal</CCardTitle>
-          <CCardText style={{ color: "black" }}>
-            nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            blanditiis nesciunt provident magni ut! Cumque eos, aut impedit
-            perspiciatis dicta vero ratione?
-          </CCardText>
-          {/* <CButton href="#">Go somewhere</CButton> */}
-        </CCardBody>
-      </CCard>
+      <div>
+        <CCard style={{ width: "22rem" }}>
+          <CCardImage orientation="top" src={nepal} />
+          <CCardBody>
+            <CCardTitle style={{ color: "black" }}>Nepal</CCardTitle>
+            <CCardText style={{ color: "black" }}>
+              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
+              impedit perspiciatis dicta vero ratione?
+            </CCardText>
+            {/* <CButton href="#">Go somewhere</CButton> */}
+          </CCardBody>
+        </CCard>
+      </div>
 
-      <CCard style={{ width: "22rem" }}>
-        <CCardImage orientation="top" src={lko} />
-        <CCardBody>
-          <CCardTitle style={{ color: "black" }}>Lucknow</CCardTitle>
-          <CCardText style={{ color: "black" }}>
-            nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            blanditiis nesciunt provident magni ut! Cumque eos, aut impedit
-            perspiciatis dicta vero ratione?
-          </CCardText>
-          {/* <CButton href="#">Go somewhere</CButton> */}
-        </CCardBody>
-      </CCard>
+      <div>
+        <CCard style={{ width: "22rem" }}>
+          <CCardImage orientation="top" src={lko} />
+          <CCardBody>
+            <CCardTitle style={{ color: "black" }}>Lucknow</CCardTitle>
+            <CCardText style={{ color: "black" }}>
+              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
+              impedit perspiciatis dicta vero ratione?
+            </CCardText>
+            {/* <CButton href="#">Go somewhere</CButton> */}
+          </CCardBody>
+        </CCard>
+      </div>
 
-      <CCard style={{ width: "22rem" }}>
-        <CCardImage orientation="top" src={varanasi} />
-        <CCardBody>
-          <CCardTitle style={{ color: "black" }}>Varanasi</CCardTitle>
-          <CCardText style={{ color: "black" }}>
-            nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            blanditiis nesciunt provident magni ut! Cumque eos, aut impedit
-            perspiciatis dicta vero ratione?
-          </CCardText>
-          {/* <CButton href="#">Go somewhere</CButton> */}
-        </CCardBody>
-      </CCard>
+      <div>
+        <CCard style={{ width: "22rem" }}>
+          <CCardImage orientation="top" src={varanasi} />
+          <CCardBody>
+            <CCardTitle style={{ color: "black" }}>Varanasi</CCardTitle>
+            <CCardText style={{ color: "black" }}>
+              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
+              impedit perspiciatis dicta vero ratione?
+            </CCardText>
+            {/* <CButton href="#">Go somewhere</CButton> */}
+          </CCardBody>
+        </CCard>
+      </div>
     </div>
   );
 };
