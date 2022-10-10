@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif !important;
+  background-color: #000015;
 }
 
 .carousel-root {
@@ -64,6 +65,24 @@
   }
 }
 
+@media screen and (max-width: 745px) {
+  ._container_32gdz_1 ul {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 681px) {
+  ._container_32gdz_1 ul {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  ._container_32gdz_1 img {
+    width: 200px !important;
+  }
+}
+
 @media screen and (max-width: 589px) {
   ._container1_1j0w6_1,
   ._container1_330ht_1 {
@@ -72,6 +91,13 @@
   ._container2_1j0w6_67,
   ._container2_330ht_48 {
     flex-direction: column !important;
+  }
+  ._container_32gdz_1 img {
+    width: 150px !important;
+  }
+
+  ._container_32gdz_1 {
+    gap: 1rem !important;
   }
 }
 
