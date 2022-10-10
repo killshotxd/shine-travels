@@ -18,7 +18,7 @@ const Body = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/book", { replace: true });
+    navigate("/book");
   };
 
   return (
