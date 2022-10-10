@@ -7,6 +7,29 @@
   font-family: "Poppins", sans-serif !important;
 }
 
+.carousel-root {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.carousel.carousel-slider {
+  width: 70vw !important;
+  height: 75vh !important;
+}
+
+.carousel .slide img {
+  width: fit-content !important;
+}
+
+.card-title {
+  font-size: xx-large !important;
+  font-weight: 700 !important;
+}
+
+/* Media Queries */
+
 @media screen and (max-width: 1412px) {
   ._container2_ggkoq_95 {
     min-height: 100vh !important;
@@ -66,25 +89,4 @@
     height: 40vh !important;
     margin-left: 0;
   }
-}
-
-.carousel-root {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-.carousel.carousel-slider {
-  width: 70vw !important;
-  height: 75vh !important;
-}
-
-.carousel .slide img {
-  width: fit-content !important;
-}
-
-.card-title {
-  font-size: xx-large !important;
-  font-weight: 700 !important;
 }
