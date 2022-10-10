@@ -37,15 +37,15 @@
   ._left2_ggkoq_113 img {
     width: 30rem !important;
     height: 59vh !important;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
 
 @media screen and (max-width: 1081px) {
   ._container2_ggkoq_95 {
     gap: 6rem !important;
-    flex-direction: column;
-    margin-top: 4rem;
+    flex-direction: column !important;
+    margin-top: 4rem !important;
   }
 
   ._right2_ggkoq_133 h2 {
@@ -87,6 +87,6 @@
   }
   ._left2_ggkoq_113 img {
     height: 40vh !important;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
