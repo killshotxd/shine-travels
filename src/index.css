@@ -50,17 +50,23 @@
     margin-top: 4rem !important;
   }
 
-  ._right2_ggkoq_133 h2 {
+  ._right2_ggkoq_133 h2,
+  ._right2_330ht_67 h2 {
     font-size: 2.2rem !important;
   }
 
-  ._container_s1i37_1 {
+  ._container_s1i37_1,
+  ._container_4nt0a_1 {
     margin-top: 7rem !important;
+  }
+  .carousel.carousel-slider {
+    height: 45vh !important;
   }
 }
 
 @media screen and (max-width: 589px) {
-  ._container1_1j0w6_1 {
+  ._container1_1j0w6_1,
+  ._container1_330ht_1 {
     flex-direction: column !important;
   }
   ._container2_1j0w6_67,
@@ -81,7 +87,8 @@
     font-size: xx-large !important;
     font-weight: 600 !important;
   }
-  ._right2_1j0w6_99 h2 {
+  ._right2_1j0w6_99 h2,
+  ._right2_330ht_67 {
     font-size: xx-large !important;
     font-weight: 600 !important;
   }
