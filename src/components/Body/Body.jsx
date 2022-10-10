@@ -12,6 +12,7 @@ import About from "../About/About";
 import audi from "../../assets/audi.jpg";
 import bmw from "../../assets/bmw.jpg";
 import jaguar from "../../assets/jaguar.jpg";
+import Services from "../Services/Services";
 
 const Body = () => {
   const navigate = useNavigate();
@@ -69,7 +70,12 @@ const Body = () => {
           </Button>
         </div>
       </div>
-      <About />
+      <div>
+        <Services />
+      </div>
+      <div>
+        <About />
+      </div>
     </div>
   );
 };
