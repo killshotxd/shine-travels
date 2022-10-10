@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./Body.module.css";
 import CarLogo from "../../assets/carLogo.svg";
 import CarLogo2 from "../../assets/carLogo2.svg";
-import SimpleImageSlider from "react-simple-image-slider";
+
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
 import logo from "../../assets/logo-no-background.svg";
 
-const images = [
+const slideImages = [
   {
     url: "https://i.ytimg.com/vi/uqH3eKXsRXY/maxresdefault.jpg",
   },
@@ -33,17 +33,7 @@ const Body = () => {
           <h1>
             <img src={logo} alt="LOGO" width={300} />
           </h1>
-          <div className={styles.centerSlider}>
-            <SimpleImageSlider
-              width={896}
-              height={504}
-              images={images}
-              showBullets={true}
-              showNavs={true}
-              autoPlay
-              loop={true}
-            />
-          </div>
+          <div className={styles.centerSlider}></div>
         </div>
 
         {/* <div className={styles.left}>
