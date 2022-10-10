@@ -34,7 +34,8 @@
   ._container2_ggkoq_95 {
     min-height: 100vh !important;
   }
-  ._left2_ggkoq_113 img {
+  ._left2_ggkoq_113 img,
+  ._left2_330ht_57 img {
     width: 30rem !important;
     height: 59vh !important;
     margin-left: 0 !important;
@@ -42,7 +43,8 @@
 }
 
 @media screen and (max-width: 1081px) {
-  ._container2_ggkoq_95 {
+  ._container2_ggkoq_95,
+  ._container2_330ht_48 {
     gap: 6rem !important;
     flex-direction: column !important;
     margin-top: 4rem !important;
@@ -61,7 +63,8 @@
   ._container1_1j0w6_1 {
     flex-direction: column !important;
   }
-  ._container2_1j0w6_67 {
+  ._container2_1j0w6_67,
+  ._container2_330ht_48 {
     flex-direction: column !important;
   }
 }
@@ -85,7 +88,8 @@
   ._container_exobr_1 h2 {
     font-size: larger !important;
   }
-  ._left2_ggkoq_113 img {
+  ._left2_ggkoq_113 img,
+  ._left2_330ht_57 img {
     height: 40vh !important;
     margin-left: 0 !important;
   }
