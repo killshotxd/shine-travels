@@ -46,7 +46,7 @@
 }
 
 .container2 {
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,10 @@
   width: 50vw;
 }
 .left2 img {
-  width: 35rem;
+  width: 40rem;
+  height: 75vh;
+  border-radius: 1rem;
+  margin-left: 2rem;
 }
 
 .right2 {

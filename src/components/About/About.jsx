@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./About.module.css";
 const About = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
       <h2>About Us</h2>
       <p>
         Welcome to Shine Tours and Travels, the fastest growing car rental

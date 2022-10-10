@@ -10,6 +10,14 @@ const Navbar = () => {
     navigate("/");
   };
 
+  const handleAbout = () => {
+    navigate("/about");
+  };
+
+  const handleContact = () => {
+    navigate("/contacts");
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.left}>
@@ -17,8 +25,8 @@ const Navbar = () => {
       </div>
       <div className={styles.right}>
         <ul onClick={handleClick}>Home</ul>
-        <ul>About</ul>
-        <ul>Contact</ul>
+        <ul onClick={handleAbout}>About</ul>
+        <ul onClick={handleContact}>Contact</ul>
       </div>
     </div>
   );

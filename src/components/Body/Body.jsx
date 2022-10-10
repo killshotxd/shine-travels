@@ -4,7 +4,7 @@ import CarLogo from "../../assets/carLogo.svg";
 import CarLogo2 from "../../assets/carLogo2.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-
+import nepal from "../../assets/nepal.jpg";
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
@@ -13,17 +13,6 @@ import audi from "../../assets/audi.jpg";
 import bmw from "../../assets/bmw.jpg";
 import jaguar from "../../assets/jaguar.jpg";
 
-const slideImages = [
-  {
-    url: "https://i.ytimg.com/vi/uqH3eKXsRXY/maxresdefault.jpg",
-  },
-  {
-    url: "https://samacharnama.com/static/c1e/client/79965/uploaded_original/2aece479ff50322b2ce142572a6ab50e.jpg",
-  },
-  {
-    url: "https://carmonkey.in/wp-content/uploads/2021/03/maruti-swift-dzire-vdi-side-part-scaled.jpg",
-  },
-];
 const Body = () => {
   const navigate = useNavigate();
 
@@ -66,7 +55,7 @@ const Body = () => {
       </div>
       <div className={styles.container2}>
         <div className={styles.left2}>
-          <img src={CarLogo2} alt="IMG" />
+          <img src={nepal} alt="IMG" />
         </div>
         <div className={styles.right2}>
           <h2>
