@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <img src={logo} alt="LOGO" width={300} />
+        <img src={logo} alt="LOGO" width={250} />
       </div>
       <div className={styles.right}>
         <ul onClick={handleClick}>Home</ul>

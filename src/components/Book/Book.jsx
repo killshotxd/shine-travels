@@ -9,7 +9,6 @@ const Book = () => {
 
   return (
     <div>
-      <Navbar />
       <div className={styles.main}>
         {/* Start */}
         <div className={styles.container}>
@@ -82,8 +81,6 @@ const Book = () => {
         </div>
         {/* End */}
       </div>
-
-      <Footer />
     </div>
   );
 };
