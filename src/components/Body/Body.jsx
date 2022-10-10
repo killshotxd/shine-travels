@@ -2,11 +2,16 @@ import React from "react";
 import styles from "./Body.module.css";
 import CarLogo from "../../assets/carLogo.svg";
 import CarLogo2 from "../../assets/carLogo2.svg";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
 import logo from "../../assets/logo-no-background.svg";
+import audi from "../../assets/audi.jpg";
+import bmw from "../../assets/bmw.jpg";
+import jaguar from "../../assets/jaguar.jpg";
 
 const slideImages = [
   {
@@ -33,7 +38,22 @@ const Body = () => {
           <h1>
             <img src={logo} alt="LOGO" width={300} />
           </h1>
-          <div className={styles.centerSlider}></div>
+          <div className={styles.centerSlider}>
+            <Carousel autoPlay={true} infiniteLoop={true}>
+              <div>
+                <img src={audi} />
+                <p className="legend">Audi</p>
+              </div>
+              <div>
+                <img src={bmw} />
+                <p className="legend">BMW</p>
+              </div>
+              <div>
+                <img src={jaguar} />
+                <p className="legend">Jaguar</p>
+              </div>
+            </Carousel>
+          </div>
         </div>
 
         {/* <div className={styles.left}>
