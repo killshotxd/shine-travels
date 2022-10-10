@@ -80,15 +80,20 @@
     font-size: 0.8rem !important;
     gap: 0.2rem !important;
   }
+  .carousel.carousel-slider {
+    height: 37vh !important;
+  }
+  ._left2_330ht_57 img {
+    height: 40vh !important;
+  }
 }
 
 @media screen and (max-width: 437px) {
   ._left_1j0w6_19 h1 {
-    font-size: xx-large !important;
+    font-size: 1rem !important;
     font-weight: 600 !important;
   }
-  ._right2_1j0w6_99 h2,
-  ._right2_330ht_67 {
+  ._right2_1j0w6_99 h2 {
     font-size: xx-large !important;
     font-weight: 600 !important;
   }
