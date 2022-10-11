@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Contacts from "./components/Contacts/Contacts";
 import Services from "./components/Services/Services";
+import Booking from "./components/Booking/Booking";
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/booking" element={<Booking />} />
       </Routes>
       <Footer />
     </BrowserRouter>

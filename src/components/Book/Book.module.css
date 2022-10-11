@@ -12,6 +12,7 @@
   border-radius: 20px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
   /* box-shadow: 1px 1px 20px palevioletred; */
 }
 
