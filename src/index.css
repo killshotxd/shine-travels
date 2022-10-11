@@ -9,6 +9,10 @@
   color: white;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .carousel-root {
   display: flex !important;
   flex-direction: column !important;
