@@ -8,7 +8,7 @@ import nepal from "../../assets/nepal.jpg";
 import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
-
+import Fade from "react-reveal/Fade";
 import audi from "../../assets/audi.jpg";
 import bmw from "../../assets/bmw.jpg";
 import jaguar from "../../assets/jaguar.jpg";
@@ -54,28 +54,34 @@ const Body = () => {
           <img src={CarLogo} alt="IMG" />
         </div> */}
       </div>
-      <div className={styles.container2}>
-        <div className={styles.left2}>
-          <img src={nepal} alt="IMG" />
+      <Fade left>
+        <div className={styles.container2}>
+          <div className={styles.left2}>
+            <img src={nepal} alt="IMG" />
+          </div>
+          <div className={styles.right2}>
+            <h2>
+              Want to go on a <span>Tour?</span>{" "}
+            </h2>
+            <h3>Pick your desired car from wide range and enjoy your ride.</h3>
+            <p>Booking a car process never this easier</p>
+            <p>Get your desired car on your doorsteps in one click</p>
+            <Button onClick={handleClick} colorScheme="red" variant="outline">
+              Book Now
+            </Button>
+          </div>
         </div>
-        <div className={styles.right2}>
-          <h2>
-            Want to go on a <span>Tour?</span>{" "}
-          </h2>
-          <h3>Pick your desired car from wide range and enjoy your ride.</h3>
-          <p>Booking a car process never this easier</p>
-          <p>Get your desired car on your doorsteps in one click</p>
-          <Button onClick={handleClick} colorScheme="red" variant="outline">
-            Book Now
-          </Button>
+      </Fade>
+      <Fade right>
+        <div>
+          <Services />
         </div>
-      </div>
-      <div>
-        <Services />
-      </div>
-      <div>
-        <About />
-      </div>
+      </Fade>
+      <Fade up>
+        <div>
+          <About />
+        </div>
+      </Fade>
     </div>
   );
 };
