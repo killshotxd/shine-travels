@@ -21,13 +21,13 @@ const Contact = () => {
       ></iframe>
 
       <div className={styles.icon}>
-        <a className={styles.hvGrow} href="#">
+        <a className={styles.hvGrow} href="tel:+917071707194">
           <HiPhone fontSize={30} />
         </a>
-        <a className={styles.hvGrow} href="#">
+        <a className={styles.hvGrow} href="mailto:hassanansari211@gmail.com">
           <HiMail fontSize={30} />
         </a>
-        <a className={styles.hvGrow} href="#">
+        <a className={styles.hvGrow} href="https://wa.me/+917071707194">
           <IoLogoWhatsapp fontSize={30} />
         </a>
       </div>
