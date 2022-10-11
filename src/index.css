@@ -95,7 +95,8 @@
   ._container2_330ht_48 {
     flex-direction: column !important;
   }
-  ._container_32gdz_1 img {
+  ._container_32gdz_1 img,
+  ._container_q5y48_1 img {
     width: 150px !important;
   }
 
@@ -142,5 +143,9 @@
   ._left2_330ht_57 img {
     height: 40vh !important;
     margin-left: 0 !important;
+  }
+
+  ._container_q5y48_1 img {
+    width: 115px !important;
   }
 }
