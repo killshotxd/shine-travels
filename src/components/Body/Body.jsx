@@ -72,11 +72,11 @@ const Body = () => {
           </div>
         </div>
       </Fade>
-      <Fade right>
-        <div>
-          <Services />
-        </div>
-      </Fade>
+
+      <div>
+        <Services />
+      </div>
+
       <Fade up>
         <div>
           <About />

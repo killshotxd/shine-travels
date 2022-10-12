@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Booking.module.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { Button } from "@chakra-ui/react";
 import { HiMail, HiPhone } from "react-icons/hi";
 import { IoLogoWhatsapp } from "react-icons/io";
 const Booking = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [state, handleSubmit] = useForm("xleverav");
   if (state.succeeded) {
     return (

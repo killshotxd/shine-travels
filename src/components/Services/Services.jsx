@@ -12,6 +12,7 @@ import {
 import nepal from "../../assets/nepal.jpg";
 import lko from "../../assets/lkojpg.jpg";
 import varanasi from "../../assets/varanasi.jpg";
+import { Fade } from "react-reveal";
 const Services = () => {
   return (
     <div className={styles.container}>
