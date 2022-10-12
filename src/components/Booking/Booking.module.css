@@ -22,10 +22,17 @@
 }
 
 .email label,
-.email input {
+.email input,
+.phone label,
+.phone input {
   font-size: x-large;
 }
 
 .container textarea {
   border: 2px solid rgb(123, 89, 89);
+}
+
+.phone {
+  display: flex;
+  gap: 2rem;
 }
