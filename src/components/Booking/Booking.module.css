@@ -1,0 +1,31 @@
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container form input {
+  border: 2px solid rgb(123, 89, 89);
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  gap: 1rem;
+}
+
+.email label,
+.email input {
+  font-size: x-large;
+}
+
+.container textarea {
+  border: 2px solid rgb(123, 89, 89);
+}

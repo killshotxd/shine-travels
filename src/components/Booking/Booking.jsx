@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Booking.module.css";
 import { useForm, ValidationError } from "@formspree/react";
+import { Button } from "@chakra-ui/react";
 const Booking = () => {
   const [state, handleSubmit] = useForm("xleverav");
   if (state.succeeded) {
@@ -8,16 +9,54 @@ const Booking = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <textarea id="message" name="message" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </form>
+    <div className={styles.container}>
+      <form onSubmit={handleSubmit}>
+        <div className={styles.email}>
+          <label htmlFor="email">Email Address</label>
+          <input id="email" type="email" name="email" />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        </div>
+
+        <div className={styles.phone}>
+          <label htmlFor="tel">Phone Number</label>
+          <input id="phone" type="tel" name="phone" />
+          <ValidationError
+            prefix=" Phone Number"
+            field="number"
+            errors={state.errors}
+          />
+        </div>
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Enter Your Message/Queries"
+        />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+
+        <select id="select" name="Cars">
+          <option value="default">Select Car</option>
+          <option value="Audi A6">Audi A6</option>
+          <option value="BMW">BMW</option>
+          <option value="Swift Dzire">Swift Dzire</option>
+          <option value="Amaze">Amaze</option>
+          <option value="Honda City">Honda City</option>
+          <option value="Fortuner">Fortuner</option>
+        </select>
+        <Button
+          variant="solid"
+          colorScheme="red"
+          type="submit"
+          disabled={state.submitting}
+        >
+          Submit
+        </Button>
+      </form>
+    </div>
   );
 };
 
