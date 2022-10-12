@@ -88,6 +88,15 @@ html {
   ._container_32gdz_1 img {
     width: 200px !important;
   }
+  ._email_fvyo6_19 label,
+  ._email_fvyo6_19 input,
+  ._phone_fvyo6_26 label,
+  ._phone_fvyo6_26 input {
+    font-size: 1rem !important;
+  }
+  ._container_fvyo6_1 form {
+    width: 70vw !important;
+  }
 }
 
 @media screen and (max-width: 589px) {
@@ -115,6 +124,12 @@ html {
   }
   ._right_q5y48_23 {
     gap: 1rem !important;
+  }
+  ._left2_330ht_57 {
+    width: 70vw;
+  }
+  ._right2_330ht_67 {
+    width: 70vw;
   }
 }
 
