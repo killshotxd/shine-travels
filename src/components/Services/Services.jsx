@@ -17,7 +17,7 @@ const Services = () => {
   return (
     <div className={styles.container}>
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "22rem" }}>
+        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
           <CCardImage orientation="top" src={nepal} />
           <CCardBody>
             <CCardTitle>Nepal</CCardTitle>
@@ -32,7 +32,7 @@ const Services = () => {
       </div>
 
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "22rem" }}>
+        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
           <CCardImage orientation="top" src={lko} />
           <CCardBody>
             <CCardTitle>Lucknow</CCardTitle>
@@ -47,7 +47,7 @@ const Services = () => {
       </div>
 
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "22rem" }}>
+        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
           <CCardImage orientation="top" src={varanasi} />
           <CCardBody>
             <CCardTitle>Varanasi</CCardTitle>

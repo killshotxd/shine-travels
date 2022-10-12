@@ -73,14 +73,14 @@ html {
 @media screen and (max-width: 745px) {
   ._container_32gdz_1 ul,
   ._container_q5y48_1 ul {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
   }
 }
 
 @media screen and (max-width: 681px) {
   ._container_32gdz_1 ul,
   ._container_q5y48_1 ul {
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
   }
 }
 
