@@ -36,3 +36,12 @@
   display: flex;
   gap: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .email label,
+  .email input,
+  .phone label,
+  .phone input {
+    font-size: 1rem;
+  }
+}

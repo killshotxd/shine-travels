@@ -22,9 +22,9 @@ const Services = () => {
           <CCardBody>
             <CCardTitle>Nepal</CCardTitle>
             <CCardText>
-              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
-              impedit perspiciatis dicta vero ratione?
+              Want to go on a vacation? Book a tour to Nepal with Shine Travels
+              and Enjoy every beautiful location of Nepal with Family and
+              friends.
             </CCardText>
             {/* <CButton href="#">Go somewhere</CButton> */}
           </CCardBody>
@@ -37,9 +37,9 @@ const Services = () => {
           <CCardBody>
             <CCardTitle>Lucknow</CCardTitle>
             <CCardText>
-              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
-              impedit perspiciatis dicta vero ratione?
+              Want to Travel? Book a car to Lucknow with Shine Travels and Enjoy
+              a beautiful, calm and friendly ride to Lucknow with Family and
+              friends.
             </CCardText>
             {/* <CButton href="#">Go somewhere</CButton> */}
           </CCardBody>
@@ -52,9 +52,9 @@ const Services = () => {
           <CCardBody>
             <CCardTitle>Varanasi</CCardTitle>
             <CCardText>
-              nepal Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Nemo blanditiis nesciunt provident magni ut! Cumque eos, aut
-              impedit perspiciatis dicta vero ratione?
+              Want to Travel? Book a car to Varanasi with Shine Travels and
+              Enjoy a beautiful, calm and friendly ride to Varanasi with Family
+              and friends.
             </CCardText>
             {/* <CButton href="#">Go somewhere</CButton> */}
           </CCardBody>
