@@ -85,7 +85,8 @@ html {
 }
 
 @media screen and (max-width: 636px) {
-  ._container_32gdz_1 img {
+  ._container_32gdz_1 img,
+  ._container_q5y48_1 img {
     width: 200px !important;
   }
   ._email_fvyo6_19 label,
@@ -146,6 +147,13 @@ html {
   }
 }
 
+@media screen and (max-width: 457px) {
+  ._container_32gdz_1 img,
+  ._container_q5y48_1 img {
+    width: 180px !important;
+  }
+}
+
 @media screen and (max-width: 437px) {
   ._left_1j0w6_19 h1 {
     font-size: 1rem !important;
@@ -166,5 +174,15 @@ html {
 
   ._container_q5y48_1 img {
     width: 115px !important;
+  }
+  ._container_32gdz_1 ul,
+  ._container_q5y48_1 ul {
+    font-size: 0.6rem !important;
+  }
+  ._email_fvyo6_19 label,
+  ._email_fvyo6_19 input,
+  ._phone_fvyo6_26 label,
+  ._phone_fvyo6_26 input {
+    font-size: 0.7rem !important;
   }
 }
