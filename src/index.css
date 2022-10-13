@@ -34,7 +34,7 @@ html {
   font-weight: 700 !important;
 }
 
-/* Media Queries */
+/* Media Queries
 
 @media screen and (max-width: 1412px) {
   ._container2_ggkoq_95 {
@@ -106,7 +106,8 @@ html {
     flex-direction: column !important;
   }
   ._container2_1j0w6_67,
-  ._container2_330ht_48 {
+  ._container2_330ht_48,
+  ._container2_88fh2_48 {
     flex-direction: column !important;
   }
   ._container_32gdz_1 img,
@@ -185,4 +186,4 @@ html {
   ._phone_fvyo6_26 input {
     font-size: 0.7rem !important;
   }
-}
+} */
