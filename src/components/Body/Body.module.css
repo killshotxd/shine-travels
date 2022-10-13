@@ -99,3 +99,40 @@
   background: #efefef;
   text-align: center;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1380px) {
+  .left2 img {
+    width: 30vw;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .left2 img {
+    width: 30vw;
+    height: 40vh;
+  }
+  .right2 h2 {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container2 {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  .left2 {
+    width: 80vw;
+  }
+  .left2 img {
+    width: 70vw;
+    height: 50vh;
+  }
+  .right2 {
+    width: 70vw;
+  }
+}

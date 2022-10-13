@@ -24,3 +24,38 @@
   display: flex;
   gap: 2rem;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 698px) {
+  .left img {
+    width: 200px;
+  }
+  .right {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .left img {
+    width: 150px;
+  }
+  .right {
+    gap: 0.8rem;
+  }
+  .right ul {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .right {
+    gap: 0.5rem;
+  }
+  .left img {
+    width: 110px;
+  }
+  .right ul {
+    font-size: 0.7rem;
+  }
+}

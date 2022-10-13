@@ -34,6 +34,12 @@ html {
   font-weight: 700 !important;
 }
 
+@media screen and (max-width: 758px) {
+  .carousel.carousel-slider {
+    height: 45vh !important;
+  }
+}
+
 /* Media Queries
 
 @media screen and (max-width: 1412px) {
