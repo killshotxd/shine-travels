@@ -1,7 +1,7 @@
 .container {
   height: 40vh;
   padding: 2rem;
-  border: 2px solid;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +12,7 @@
 
 .container p {
   font-size: 2rem;
+  color: palevioletred;
 }
 
 @media screen and (max-width: 400px) {
