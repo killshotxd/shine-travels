@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .container form {
@@ -43,5 +44,14 @@
   .phone label,
   .phone input {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .email label,
+  .email input,
+  .phone label,
+  .phone input {
+    font-size: 0.7rem;
   }
 }
