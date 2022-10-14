@@ -66,9 +66,11 @@ const Body = () => {
             <h3>Pick your desired car from wide range and enjoy your ride.</h3>
             <p>Booking a car process never this easier</p>
             <p>Get your desired car on your doorsteps in one click</p>
-            <Button onClick={handleClick} colorScheme="red" variant="outline">
-              Book Now
-            </Button>
+            <div className={styles.btn}>
+              <Button onClick={handleClick} colorScheme="red" variant="outline">
+                Book Now
+              </Button>
+            </div>
           </div>
         </div>
       </Fade>
