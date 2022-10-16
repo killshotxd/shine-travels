@@ -19,7 +19,8 @@
 
 .email {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .email label,
@@ -31,6 +32,15 @@
 
 .container textarea {
   border: 2px solid rgb(123, 89, 89);
+  text-align: center;
+  height: 8rem;
+}
+
+.textArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .phone {
