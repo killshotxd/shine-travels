@@ -13,11 +13,21 @@ import nepal from "../../assets/nepal.jpg";
 import lko from "../../assets/lkojpg.jpg";
 import varanasi from "../../assets/varanasi.jpg";
 import { Fade } from "react-reveal";
+import { useNavigate } from "react-router-dom";
 const Services = () => {
+  const navigate = useNavigate();
+  const handleBooking = () => {
+    navigate("/booking");
+    console.log("click");
+  };
   return (
     <div className={styles.container}>
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
+        <CCard
+          onClick={handleBooking}
+          className={styles.hvGrow}
+          style={{ width: "19rem", cursor: "pointer" }}
+        >
           <CCardImage orientation="top" src={nepal} />
           <CCardBody>
             <CCardTitle>Nepal</CCardTitle>
@@ -32,7 +42,11 @@ const Services = () => {
       </div>
 
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
+        <CCard
+          onClick={handleBooking}
+          className={styles.hvGrow}
+          style={{ width: "19rem", cursor: "pointer" }}
+        >
           <CCardImage orientation="top" src={lko} />
           <CCardBody>
             <CCardTitle>Lucknow</CCardTitle>
@@ -47,7 +61,11 @@ const Services = () => {
       </div>
 
       <div>
-        <CCard className={styles.hvGrow} style={{ width: "19rem" }}>
+        <CCard
+          onClick={handleBooking}
+          className={styles.hvGrow}
+          style={{ width: "19rem", cursor: "pointer" }}
+        >
           <CCardImage orientation="top" src={varanasi} />
           <CCardBody>
             <CCardTitle>Varanasi</CCardTitle>
