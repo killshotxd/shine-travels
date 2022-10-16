@@ -34,9 +34,19 @@ html {
   font-weight: 700 !important;
 }
 
+.carousel .thumbs {
+  display: contents !important;
+}
+
 @media screen and (max-width: 758px) {
   .carousel.carousel-slider {
     height: 45vh !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel.carousel-slider {
+    height: 35vh !important;
   }
 }
 

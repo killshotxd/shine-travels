@@ -9,10 +9,12 @@ import { Button } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import About from "../About/About";
 import Fade from "react-reveal/Fade";
-import audi from "../../assets/audi.jpg";
-import bmw from "../../assets/bmw.jpg";
+import Audi from "../../assets/AudiUp.jpeg";
 import jaguar from "../../assets/jaguar.jpg";
 import Services from "../Services/Services";
+import Dzire from "../../assets/Dzire.jpeg";
+import Ertiga from "../../assets/Ertiga.jpg";
+import Brezza from "../../assets/Brezza.jpg";
 
 const Body = () => {
   const navigate = useNavigate();
@@ -28,13 +30,17 @@ const Body = () => {
           <div className={styles.centerSlider}>
             <Carousel autoPlay={true} infiniteLoop={true}>
               <div>
-                <img src={audi} />
+                <img src={Audi} />
                 <p className="legend">Audi</p>
               </div>
               <div>
-                <img src={bmw} />
-                <p className="legend">BMW</p>
+                <img src={Dzire} />
+                <p className="legend">Swift Dzire</p>
               </div>
+              {/* <div>
+                <img src={Ertiga} />
+                <p className="legend">Ertiga</p>
+              </div> */}
               <div>
                 <img src={jaguar} />
                 <p className="legend">Jaguar</p>
