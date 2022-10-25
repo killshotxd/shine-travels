@@ -5,8 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif !important;
-  background-color: aliceblue;
-  color: black;
+}
+
+body {
+  background-color: aliceblue !important;
+  color: black !important;
 }
 
 html {
@@ -36,6 +39,10 @@ html {
 
 .carousel .thumbs {
   display: contents !important;
+}
+
+.Wa {
+  background-color: #25d366 !important;
 }
 
 @media screen and (max-width: 758px) {
