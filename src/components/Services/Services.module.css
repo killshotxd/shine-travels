@@ -25,3 +25,9 @@
 .hvGrow:active {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 522px) {
+  .hvGrow {
+    margin-top: 2rem;
+  }
+}
