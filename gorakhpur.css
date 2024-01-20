@@ -1,0 +1,83 @@
+.hero {
+    background-color: #f2f2f2; /* Background color for the hero section */
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    max-width: 100%; /* Make the image responsive to its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .hero-content {
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero-image {
+        flex: 1;
+        padding: 20px;
+    }
+    .hero-text {
+        flex: 1;
+        text-align: left;
+    }
+}
+
+ /*div Common styles */
+ .divContainer {
+      max-width: 100%;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .divContainer h3{
+    text-transform: uppercase;
+  }
+
+  /* Desktop screens */
+  @media (min-width: 768px) {
+      .divContainer {
+          background-color: #f0f0f0;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+      }
+  }
+
+  /* Tablet screens */
+  @media (max-width: 767px) {
+      .divContainer {
+          background-color: #e0e0e0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+  }
+
+  /* Mobile screens */
+  @media (max-width: 480px) {
+      .divContainer {
+          background-color: #d0d0d0;
+          border: 1px solid #bbb;
+          border-radius: 5px;
+      }
+  }
